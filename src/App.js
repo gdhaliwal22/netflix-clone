@@ -8,6 +8,7 @@ function App() {
       <h1>Netflix Clone</h1>
       <Row title="NETFLIX ORIGINALS" />
       <Row title="Trending Now" />
+      <Row title="Action" />
     </div>
   );
 }
