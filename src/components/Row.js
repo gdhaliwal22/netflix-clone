@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
-function Row({ title }) {
+function Row({ title, fetchURL }) {
+  const [movies, setMovies] = useState([]);
+
+  useEffect(() => {}, []);
   return (
     <div>
-      <h2>{title}</h2>
-
       {/* {title} */}
       {/* {container -> poster} */}
     </div>
