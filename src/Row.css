@@ -2,6 +2,12 @@
   display: flex;
   overflow-y: hidden;
   overflow-x: scroll;
+  padding: 20px;
+}
+
+/* Tell browsers to not display scrollbar but keep functionality */
+.row__posters::-webkit-scrollbar {
+  display: none;
 }
 
 .row__poster {
