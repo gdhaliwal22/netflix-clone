@@ -8,6 +8,7 @@ import requests from "./request";
 function App() {
   return (
     <div className="app">
+      <Nav />
       <Banner />
       <Row
         title="NETFLIX ORIGINALS"
