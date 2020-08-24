@@ -3,8 +3,18 @@
   top: 0;
   width: 100%;
   padding: 20px;
+  height: 20px;
+  z-index: 1;
   display: flex;
   justify-content: space-between;
+
+  /* Animation */
+  transition-timing-function: ease-in;
+  transition: all 1s;
+}
+
+.nav__black {
+  background-color: #111;
 }
 
 .nav__logo {
